@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books by Edward & Eunice Vought</title>
+    <meta name="description" content="Author Website for Edward & Eunice Vought">
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css">
+  </head>
+
+
+  <body>
+    <header>
+        <h1>Books by Edward & Eunice Vought</h1>
+    </header>
+    <main>
+        <div class="filter">
+            <h2>Filter by Series</h2>
+            <select name="series" id="series">
+                <option value="all">All Series</option>
+                <option value="best-friends">Best Friends</option>
+                <option value="2nd-earth">2nd Earth</option>
+                <option value="westerns">Westerns</option>
+            </select>
+        </div>
+        <div class="viewChanger">
+        <button id="viewGrid"><img src="./images/grid-icon.png" alt="change to Grid View"></button>
+        <button id="viewList"><img src="./images/list-icon.png" alt="change to List View"></button>
+        </div>
+
+        <article class="grid">
+        <div class="cards"></div>
+        </article>
+    </main>
+
+  <footer>
+    <script src="./scripts/books.js"></script>
+    <script src="./scripts/changeview.js"></script>
+
+  </footer>
+
+    
+</body>
+</html>
