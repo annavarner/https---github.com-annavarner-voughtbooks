@@ -27,6 +27,7 @@ fetch(requestURL)
   
     card.setAttribute('class', 'bookCard');
     url.setAttribute('href', book.url);
+    url.setAttribute('target', '_blank')
     h2.textContent = `${book.name}`;
     infodiv.setAttribute('class', 'infodiv')
     date.innerHTML = `<strong>Date Published: </strong> ${book.date}`;

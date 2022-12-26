@@ -6,9 +6,13 @@ body {
     color: white;
     text-align: center;
 }
+#series {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
 .grid .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .cards section {
     border: 1px solid white;
